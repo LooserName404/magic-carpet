@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1091342468577226514, guid: 1fbf1bca5dd9abc4ebc7e41a235ce234, type: 3}
       propertyPath: m_Name
-      value: Tile
+      value: Tile_WithFlags
       objectReference: {fileID: 0}
     - target: {fileID: 1091342468577226515, guid: 1fbf1bca5dd9abc4ebc7e41a235ce234, type: 3}
       propertyPath: m_RootOrder

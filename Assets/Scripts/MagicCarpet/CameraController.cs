@@ -9,13 +9,12 @@ namespace MagicCarpet
         [SerializeField] private Player player;
 
         private Vector3 _offset;
-        // Start is called before the first frame update
+        
         void Start()
         {
             _offset = transform.position - player.transform.position;
         }
-
-        // Update is called once per frame
+        
         void Update()
         {
             if (player != null)

@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2449508363715056630, guid: 034d40b411c49954aba4dc23c3c1bfa6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e057d31842ffd904dbb859e8df056718, type: 2}
     - target: {fileID: 2449508363715056631, guid: 034d40b411c49954aba4dc23c3c1bfa6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.5
@@ -57,7 +61,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3376394401341466797, guid: 034d40b411c49954aba4dc23c3c1bfa6, type: 3}
       propertyPath: m_Name
-      value: Tile
+      value: Tile_ColumnLeft
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 034d40b411c49954aba4dc23c3c1bfa6, type: 3}

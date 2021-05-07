@@ -4,7 +4,9 @@ namespace MagicCarpet
 {
     public class Player : MonoBehaviour
     {
-        float speed = 10.0f;
+        [SerializeField] private float forwardSpeed = 1.0f;
+        
+        private float speed = 10.0f;
 
         public static Player Instance;
 
@@ -28,11 +30,13 @@ namespace MagicCarpet
                 dir.Normalize();
             }
 
-            dir.z = 1;
+            dir.z = forwardSpeed;
             dir *= Time.deltaTime;
 
             transform.Translate(dir * speed);
-            transform.position = GetClampedPosition(); 
+            transform.position = GetClampedPosition();
+
+            speed += 0.0005f;
         }
 
         private Vector3 GetClampedPosition()

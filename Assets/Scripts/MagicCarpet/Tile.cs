@@ -7,7 +7,7 @@ namespace MagicCarpet
     {
         private void Update()
         {
-            if (transform.position.z + 4 < Player.Instance.transform.position.z)
+            if (Player.Instance != null && transform.position.z + 4 < Player.Instance.transform.position.z)
             {
                 StartCoroutine(Delete());
             }
